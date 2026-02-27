@@ -1,1 +1,1 @@
-# technova
+develop an adaptive online assessment platform that dynamically adjusts question difficulty in real time based on student reponses and performance patterns. the system should generate a personalized competency profile at the of the assessment,highlighting strengths,weaknesses,and mastery levels across topics.
