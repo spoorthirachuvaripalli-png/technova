@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz</title>
+</head>
+<body>
+    <h2>{{ question.question }}</h2>
+
+    <form method="POST">
+        {% for option in question.options %}
+            <input type="radio" name="option" value="{{ option }}" required>
+            {{ option }} <br>
+        {% endfor %}
+        <button type="submit">Submit</button>
+    </form>
+
+    <p>Current Difficulty Level: {{ session.difficulty }}</p>
+</body>
+</html>

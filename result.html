@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h1>Final Score: {{ score }}/5</h1>
+
+    <h2>Competence Profile</h2>
+
+    {% for topic, level in mastery.items() %}
+        <p>{{ topic }} : {{ level }}</p>
+    {% endfor %}
+
+    <a href="/">Take Again</a>
+</body>
+</html>
